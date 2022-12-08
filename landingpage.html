@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website| Landing Page</title>
+    <link rel="stylesheet" href="css/sample.css">
+    <script src="css/Javas.js"></script>
+   
+</head>
+<body>
+    
+    <section>
+        <header>
+           <h1> <a href="#" class="logo"> Fitness</a></h1>
+          <h6> <div class="toggleMenu" onclick="toggleMenu();"></div></h6>
+            
+                <div class="Menu"></div>
+                <li><a href="#"onclick="toggleMenu();">Home</a></li>
+                <li><a href="#"onclick="toggleMenu();">About</a></li>
+                <li><a href="#" onclick="toggleMenu();">Training</a></li>
+                <li><a href="#" onclick="toggleMenu();">Team</a></li>
+                <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+    
+            </div>
+            
+        </header>
+        <div class="content">
+        <div class="contentBx"></div>
+        <h2>Build Perfect Body</br>
+        With Clean Mind</h2>
+        <p>Be proud of every step you take toward reaching that goal.Sometimes,no matter how important your goals are to you, it's a struggle to bring your best effort to your gym session (or work up the motivation to make it happen at all). But whether you're trying to lose weight, train for a race, keep your stress in check, or any of the other worthwhile reasons to make fitness a part of your life, staying consistent is key, even when you really, really, really don't feel like it. When you're struggling to remember why it's worth all the effort,</p>
+       <br>
+       <h4> <a href="#">Get Started</a></h4>
+    </div>
+   <h5> 
+        <li><a href=""><img src="CSS Tutorial/facebook.png" ></a></li>
+        <li><a href=""><img src="CSS Tutorial/instagram.png"></a></li>
+        <li><a href=""><img src="CSS Tutorial/twitter.png"></a></li>
+   </h5>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function toggleMenu(){
+           var menuToggle= document.querySelector('.toggle');
+           var banner= document.querySelector('.banner');
+           menuToggle.classList.toggle('active');
+           banner.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
